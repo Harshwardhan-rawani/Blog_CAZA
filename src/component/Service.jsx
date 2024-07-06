@@ -2,7 +2,7 @@ import React from 'react'
 import { motion, useTransform } from 'framer-motion';
 import { FaCameraRetro } from "react-icons/fa";
 import { BsCardText } from "react-icons/bs";
-import { IoCardOutline } from "react-icons/io5";
+import { FaCreditCard } from "react-icons/fa";
 function Service() {
   return (
    <>
@@ -77,7 +77,7 @@ function Service() {
          className='group'
         >
             <div className='rounded-full border-2 w-28 h-28 border-green-500 group-hover:border-white p-5'>
-            <FaCameraRetro className='text-green-500 group-hover:text-white w-full h-full'/>
+            <FaCreditCard className='text-green-500 group-hover:text-white w-full h-full'/>
             </div>
 
             </motion.div>
