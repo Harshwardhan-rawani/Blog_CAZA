@@ -15,7 +15,7 @@ function Banner({height}) {
 
   return (
     <>
-     <div className='w-[100%] lg:h-[100vh] md:h-[70vh] h-[60vh] relative'>
+     <div className='w-[100%] lg:h-[100vh] md:h-[70vh] h-[50vh] relative'>
 
             <div className='w-full h-full absolute top-0'><img src={photo} className='w-full h-full' alt="" /></div>
             <div className='bg-[#0202028b] w-full h-full absolute top-0 '></div>
